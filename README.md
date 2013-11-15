@@ -7,7 +7,7 @@ A simple category that aims to emulate the UITableView section headers found in 
 #### Usage ####
 
 In your controller's `viewDidLoad` method, add the observer to your table view.
-```
+```objective-c
 - (void)viewDidLoad {
   [super viewDidLoad];
  
@@ -19,7 +19,7 @@ In your controller's `viewDidLoad` method, add the observer to your table view.
 ```
 
 Depending on the metrics on your table view, you may need to trigger a refresh to reset the header background colors.
-```
+```objective-c
 - (void)viewDidAppear:(BOOL)animated {
   [super viewDidAppear:animated];
  
